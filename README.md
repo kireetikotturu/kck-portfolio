@@ -1,4 +1,4 @@
-# Kireeti Kotturi — Portfolio (MERN Stack)
+# Kireeti Kotturu — Portfolio (MERN Stack)
 
 A premium, modern developer portfolio built on the MERN stack (MongoDB, Express, React, Node.js),
 with a terminal/console-inspired design, full dark & light mode, and a working contact form backed
