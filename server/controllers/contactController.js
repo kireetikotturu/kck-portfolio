@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 import Contact from '../models/Contact.js';
+import { sendContactNotification } from '../utils/mailer.js';
 
 export async function createContact(req, res, next) {
   try {
@@ -21,6 +22,10 @@ export async function createContact(req, res, next) {
     }
 
     const contact = await Contact.create({ name: name.trim(), email: email.trim(), message: message.trim() });
+
+    // Fire-and-forget: don't make the visitor wait on email delivery, and
+    // never fail the request just because email sending had an issue.
+    sendContactNotification({ name: contact.name, email: contact.email, message: contact.message });
 
     res.status(201).json({
       message: 'Message received — thank you for reaching out!',
