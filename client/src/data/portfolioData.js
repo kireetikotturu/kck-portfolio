@@ -71,8 +71,8 @@ export const projects = [
       'Tiered Stripe subscriptions with cryptographically verified webhook sync',
       'Resilient bfcache restoration and cross-tab auth state consistency',
     ],
-    github: 'https://github.com/',
-    demo: 'https://example.com/',
+    github: 'https://github.com/kireetikotturu/AI-Job-Analyser',
+    demo: 'https://ai-job-analyser-three.vercel.app/',
     status: 'live',
   },
   {
@@ -87,8 +87,8 @@ export const projects = [
       'Stateless JWT verification secured with Passlib Bcrypt password hashing',
       'Automated subscription lifecycle via Stripe Checkout + signature-verified webhooks',
     ],
-    github: 'https://github.com/',
-    demo: 'https://example.com/',
+    github: 'https://github.com/kireetikotturu/study-assistant-pro',
+    demo: 'https://study-assistant-pro.vercel.app/chat',
     status: 'live',
   },
   {
@@ -103,8 +103,8 @@ export const projects = [
       'Dynamic Pie / Bar / Line charts from typed, chart-ready Firestore aggregates',
       'Search, filter, sort, and transaction reset across a mobile-first UI',
     ],
-    github: 'https://github.com/',
-    demo: 'https://example.com/',
+    github: 'https://github.com/kireetikotturu/ExpenseTrackerAccio',
+    demo: 'https://expense-tracker-accio.vercel.app/',
     status: 'live',
   },
   {
@@ -119,8 +119,8 @@ export const projects = [
       'Secure login/signup including Google OAuth authentication',
       'Student dashboards, booking functionality, and blog management system',
     ],
-    github: 'https://github.com/',
-    demo: 'https://example.com/',
+    github: 'https://github.com/kireetikotturu',
+    demo: 'https://github.com/kireetikotturu',
     status: 'internship',
   },
 ];
