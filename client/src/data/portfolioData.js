@@ -119,8 +119,6 @@ export const projects = [
       'Secure login/signup including Google OAuth authentication',
       'Student dashboards, booking functionality, and blog management system',
     ],
-    github: 'https://github.com/kireetikotturu',
-    demo: 'https://github.com/kireetikotturu',
     status: 'internship',
   },
 ];
