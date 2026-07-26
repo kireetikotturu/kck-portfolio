@@ -1,8 +1,8 @@
-import { motion } from 'framer-motion';
-import { FiArrowDown, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
-import TerminalWindow from '../components/TerminalWindow';
-import Button from '../components/Button';
-import { profile } from '../data/portfolioData';
+import { motion } from "framer-motion";
+import { FiArrowDown, FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
+import TerminalWindow from "../components/TerminalWindow";
+import Button from "../components/Button";
+import { profile } from "../data/portfolioData";
 
 export default function Hero() {
   return (
@@ -14,11 +14,13 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <p className="eyebrow mb-4">{profile.role} · {profile.location}</p>
+          <p className="eyebrow mb-4">
+            {profile.role} · {profile.location}
+          </p>
           <h1 className="font-display text-4xl font-semibold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
-            {profile.name.split(' ')[0]}{' '}
+            {profile.name.split(" ")[0]}{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-dim to-amber-dim dark:from-teal dark:to-amber">
-              {profile.name.split(' ').slice(1).join(' ')}
+              {profile.name.split(" ").slice(1).join(" ")}
             </span>
           </h1>
           <p className="mt-5 max-w-md text-base leading-relaxed text-ink/70 dark:text-paper/70">
@@ -54,7 +56,9 @@ export default function Hero() {
               <FiLinkedin size={20} />
             </a>
             <a
-              href={`mailto:${profile.email}`}
+              href={profile.gmailComposeUrl}
+              target="_blank"
+              rel="noreferrer"
               aria-label="Email"
               className="text-ink/50 transition-colors hover:text-teal-dim dark:text-paper/50 dark:hover:text-teal"
             >
@@ -68,7 +72,9 @@ export default function Hero() {
                 <dt className="font-mono text-[11px] uppercase tracking-wide text-ink/40 dark:text-paper/40">
                   {stat.label}
                 </dt>
-                <dd className="mt-1 font-display text-xl font-semibold">{stat.value}</dd>
+                <dd className="mt-1 font-display text-xl font-semibold">
+                  {stat.value}
+                </dd>
               </div>
             ))}
           </dl>

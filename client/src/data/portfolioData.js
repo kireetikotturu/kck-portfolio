@@ -11,6 +11,7 @@ export const profile = {
   tagline: 'Building scalable, asynchronous web apps with the MERN stack — and shipping GenAI pipelines on top of them.',
   location: 'Hyderabad, India',
   email: 'kireetikotturi2@gmail.com',
+  gmailComposeUrl: 'https://mail.google.com/mail/?view=cm&fs=1&to=kireetikotturi2@gmail.com',
   phone: '+91 7989919952',
   resumeUrl: 'https://drive.google.com/file/d/14javkpfFCKO8MDGo3R0vPUUwrkW2ohVx/view?usp=drive_link',
   socials: {
