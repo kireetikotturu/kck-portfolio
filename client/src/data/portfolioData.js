@@ -27,7 +27,7 @@ export const profile = {
   ],
   stats: [
     { label: 'DSA problems solved', value: '200+' },
-    { label: 'Shipped projects', value: '4' },
+    { label: 'Shipped projects', value: '50+' },
     { label: 'Internship', value: 'Blujay Tech' },
   ],
 };
