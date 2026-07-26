@@ -89,7 +89,7 @@ export const projects = [
       'Automated subscription lifecycle via Stripe Checkout + signature-verified webhooks',
     ],
     github: 'https://github.com/kireetikotturu/study-assistant-pro',
-    demo: 'https://study-assistant-pro.vercel.app/chat',
+    demo: 'https://study-assistant-pro.vercel.app',
     status: 'live',
   },
   {
