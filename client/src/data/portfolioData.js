@@ -4,19 +4,19 @@
 // ────────────────────────────────────────────────────────────────
 
 export const profile = {
-  name: 'Chandra Kireeti Kotturi',
-  shortName: 'Kireeti',
+  name: 'Chandra Kireeti Kotturu',
+  shortName: 'Chandu',
   initials: 'CK',
   role: 'Full-Stack Developer',
   tagline: 'Building scalable, asynchronous web apps with the MERN stack — and shipping GenAI pipelines on top of them.',
   location: 'Hyderabad, India',
   email: 'kireetikotturi2@gmail.com',
   phone: '+91 7989919952',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: 'https://drive.google.com/file/d/14javkpfFCKO8MDGo3R0vPUUwrkW2ohVx/view?usp=drive_link',
   socials: {
-    github: 'https://github.com/',
-    linkedin: 'https://linkedin.com/in/',
-    leetcode: 'https://leetcode.com/',
+    github: 'https://github.com/kireetikotturu',
+    linkedin: 'https://www.linkedin.com/in/chandra-kireeti-kotturu-353512222/',
+    leetcode: 'https://leetcode.com/chandra_kireeti/',
   },
   // Shown in the terminal hero as a typed command output
   terminalLines: [
